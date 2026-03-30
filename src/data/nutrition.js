@@ -1,0 +1,70 @@
+export const nutritionTargets = {
+  gym: {
+    label: "Gym Day",
+    calories: 2950,
+    protein: 155,
+    carbs: 350,
+    fat: 90,
+    description: "Strength training day — moderate carbs, higher fat for hormonal support.",
+  },
+  easy_run: {
+    label: "Run Day",
+    calories: 3100,
+    protein: 155,
+    carbs: 420,
+    fat: 80,
+    description: "Easy/moderate run day — elevated carbs to support glycogen replenishment.",
+  },
+  long_run: {
+    label: "Long Run Day",
+    calories: 3350,
+    protein: 155,
+    carbs: 500,
+    fat: 75,
+    description: "Highest carb day — glycogen depletion is greatest after long runs.",
+  },
+  rest: {
+    label: "Rest Day",
+    calories: 2750,
+    protein: 155,
+    carbs: 270,
+    fat: 90,
+    description: "Recovery day — lower calories but still fueling adaptation. Don't cut too deep.",
+  },
+}
+
+export const mealTimingTemplates = {
+  gym: [
+    { time: "7:00 AM", label: "Breakfast", macroSuggestion: "P: 35g, C: 45g, F: 20g" },
+    { time: "10:00 AM", label: "Snack", macroSuggestion: "P: 25g, C: 35g, F: 8g" },
+    { time: "12:30 PM", label: "Lunch", macroSuggestion: "P: 50g, C: 70g, F: 15g" },
+    { time: "3:30 PM", label: "Pre-Gym", macroSuggestion: "P: 10g, C: 40g, F: 8g" },
+    { time: "7:00 PM", label: "Dinner", macroSuggestion: "P: 40g, C: 60g, F: 20g" },
+    { time: "9:00 PM", label: "Evening Snack", macroSuggestion: "P: 30g, C: 15g, F: 10g" },
+  ],
+  easy_run: [
+    { time: "6:30 AM", label: "Pre-Run", macroSuggestion: "P: 2g, C: 35g, F: 1g" },
+    { time: "8:30 AM", label: "Post-Run Breakfast", macroSuggestion: "P: 45g, C: 55g, F: 25g" },
+    { time: "11:00 AM", label: "Snack", macroSuggestion: "P: 25g, C: 40g, F: 5g" },
+    { time: "1:00 PM", label: "Lunch", macroSuggestion: "P: 50g, C: 80g, F: 15g" },
+    { time: "4:00 PM", label: "Snack", macroSuggestion: "P: 30g, C: 50g, F: 12g" },
+    { time: "7:00 PM", label: "Dinner", macroSuggestion: "P: 35g, C: 50g, F: 15g" },
+    { time: "9:00 PM", label: "Evening Snack", macroSuggestion: "P: 25g, C: 15g, F: 5g" },
+  ],
+  long_run: [
+    { time: "6:00 AM", label: "Pre-Run", macroSuggestion: "P: 5g, C: 60g, F: 5g" },
+    { time: "9:30 AM", label: "Post-Run Recovery", macroSuggestion: "P: 40g, C: 70g, F: 10g" },
+    { time: "12:00 PM", label: "Lunch", macroSuggestion: "P: 50g, C: 90g, F: 15g" },
+    { time: "3:00 PM", label: "Snack", macroSuggestion: "P: 25g, C: 60g, F: 10g" },
+    { time: "6:00 PM", label: "Dinner", macroSuggestion: "P: 45g, C: 80g, F: 20g" },
+    { time: "9:00 PM", label: "Evening Snack", macroSuggestion: "P: 30g, C: 40g, F: 10g" },
+  ],
+  rest: [
+    { time: "8:00 AM", label: "Breakfast", macroSuggestion: "P: 35g, C: 40g, F: 20g" },
+    { time: "11:00 AM", label: "Snack", macroSuggestion: "P: 20g, C: 20g, F: 10g" },
+    { time: "1:00 PM", label: "Lunch", macroSuggestion: "P: 45g, C: 60g, F: 20g" },
+    { time: "4:00 PM", label: "Snack", macroSuggestion: "P: 20g, C: 25g, F: 10g" },
+    { time: "7:00 PM", label: "Dinner", macroSuggestion: "P: 40g, C: 50g, F: 20g" },
+    { time: "9:00 PM", label: "Evening Snack", macroSuggestion: "P: 25g, C: 15g, F: 10g" },
+  ],
+}
